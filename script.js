@@ -1,9 +1,9 @@
 // user config
 const SPACESHIP_SPEED = 5         // spaceship movement speed
-const ASTEROID_INITIAL = 10       // initial number of asteroids
+const ASTEROID_INITIAL = 5        // initial number of asteroids
 const ASTEROID_SPEED = 10         // random from 0 to ASTEROID_SPEED
 const ASTEROID_SCALE = [0.5, 2]   // random object scale from range
-const ASTEROID_FREQUENCY = 250    // create new asteroid each ASTEROID_FREQUENCY milliseconds
+const ASTEROID_FREQUENCY = 500    // create new asteroid each ASTEROID_FREQUENCY milliseconds
 
 
 // global constants
