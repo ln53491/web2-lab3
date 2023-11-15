@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'ModeSeven';
+    src: url("assets/modeseven.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: white;
+}
+
+#main-canvas {
+    border: 50px solid black;
+    border-style: inset;
+    box-shadow: inset 0 0 50px black;
+    position: absolute;
+    background: url("assets/tile.jpg");
+    width: 100vw;
+    height: 100vh;
+}
